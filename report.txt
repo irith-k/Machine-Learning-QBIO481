@@ -1,0 +1,13 @@
+(1) Github repository: https://github.com/irith-k/Machine-Learning-QBIO481
+(2) (a) SELEX-seq is an in vitro method used to identify DNA or RNA sequences that specifically bind to a target protein, typically a transcription factor. It involves an iterative process of selecting nucleic acid sequences that bind to the protein of interest from a diverse library of sequences and then amplifying and sequencing the enriched sequences. PBM is another in vitro technique that involves a microarray containing a large number of unique DNA sequences immobilized on a solid support. It is used to identify the binding preferences of a protein by exposing it to the microarray and quantifying its binding to different sequences.
+    (b) ChIP-seq is an in vivo method used to study protein-DNA interactions in a cellular context. It involves the cross-linking of proteins to DNA, immunoprecipitating the protein of interest with specific antibodies, and then sequencing the associated DNA fragments to identify the genomic regions to which the protein binds.
+    (c) The advantage of SELEX-seq is that it can identify high specificity binding sequences for target protein. The advantage of PBM is that it is high-throughput, so one can test many sequences simultaneously. The disadvantage of PBM is that it does not fully represent in vivo conditions. The advantages of ChIP-seq are that it provides information into the psychological relevance of protein-DNA interactions, and can be used to study the entire genome. The disadvantage of ChIP-seq is that its data analysis is much more complex than that of the in vitro methods.
+(3) See gcPBM-script.R
+(4) Mad average R-squared: 0.8193323
+    Max average R-squared: 0.8246462
+    Myc average R-squared: 0.8163754
+(5) (a) See gcPBM-plot.png
+    (b) Because the red bar is always higher than the blue bar, for each dataset, the linear regression model is a better (closer) fit to the data when trained on 1-mer and shape versus only 1-mer features.
+(6) See CTCF-script.R
+(7) [Did not complete]
+(8) [Did not complete]
